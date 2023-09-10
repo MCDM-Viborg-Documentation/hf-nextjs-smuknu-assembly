@@ -30,7 +30,7 @@ const application = {
 
     bodyTmpl : (location) => {
 
-        let applicationRoot =  'hf-nextjs-intro-boilerplate';
+        let applicationRoot =  'hf-nextjs-smuknu-assembly';
         let gitHubPageIODomain = 'mcdm-viborg-documentation.github.io';
 
         let path = (location.host === gitHubPageIODomain) ? location.origin + '/' + applicationRoot + '/' : '/';
